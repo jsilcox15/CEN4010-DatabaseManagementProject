@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="31.999992mm"
+   height="31.876369mm"
+   viewBox="0 0 31.999993 31.87637"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="HC.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="220.22587"
+     inkscape:cy="218.33858"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="false"
+     inkscape:snap-page="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.436155,-22.914)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40.6909px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.476846"
+       x="11.224171"
+       y="48.325943"
+       id="text12"><tspan
+         sodipodi:role="line"
+         x="11.224171"
+         y="48.325943"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.6909px;font-family:'Footlight MT Light';-inkscape-font-specification:'Footlight MT Light, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.476846"
+         id="tspan14">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40.6909px;line-height:1.25;font-family:sans-serif;fill:#FFFFFF;fill-opacity:1;stroke:none;stroke-width:0.476846"
+       x="20.474613"
+       y="54.21418"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         x="20.474613"
+         y="54.21418"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.6909px;font-family:'Footlight MT Light';-inkscape-font-specification:'Footlight MT Light, ';stroke-width:0.476846">C</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://127.0.0.1:5500/common/settings_security.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HC Property Management System</title>
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="./HC Property Management System_files/main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="./HC Property Management System_files/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="./HC Property Management System_files/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/common/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/common/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <a href="http://127.0.0.1:5500/common/settings_security.html#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./HC Property Management System_files/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+            <strong>Admin</strong>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-small drops shadow">
+            <li>
+              <a class="dropdown-item" href="http://127.0.0.1:5500/common/dashboard.html">Dashboard</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="http://127.0.0.1:5500/common/settings_personal.html">Profile</a>
+            </li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:5500/common/settings_security.html#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Sidebar -->
+    <div class="content main-container d-flex">
+      <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px">
+        <a href="http://127.0.0.1:5500/common/settings_security.html#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <svg class="bi pe-none me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Sidebar</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/common/settings_personal.html" class="nav-link text-white" aria-current="page">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#home"></use>
+              </svg>
+              Personal Info
+            </a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/common/settings_security.html" class="nav-link active text-white">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Account Security
+            </a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/common/settings_privacy.html" class="nav-link text-white">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#table"></use>
+              </svg>
+              Privacy Controls
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Sidebar End -->
+      <!-- Main -->
+      <main class="text-center mx-auto my-lg-5">
+        <div class="mb-3 h1">Make changes to your password here!</div>
+      </main>
+      <!-- Main End -->
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

@@ -1,0 +1,39 @@
+
+.nav-link{
+    color: white;
+}
+
+.spacer{
+    height: 50px;
+}
+.content{
+    min-height: 100vh;
+    width: 100%;
+    align-content: center;
+    
+}
+
+.form{
+    max-width: 450px;
+    padding: 15px;
+    align-items: center;
+    display: inline;
+  
+}
+
+input{
+    width: fit-content;
+}
+
+.navbar-brand{
+    color: beige;
+}
+
+main{
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+}

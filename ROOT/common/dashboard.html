@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Citizen Property Management System - Dashboard</title>
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="../stylesheets/main.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="dashboardOnLoad()">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../common/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="../common/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <a
+            href="#"
+            class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://github.com/mdo.png"
+              alt="userIcon"
+              width="32"
+              height="32"
+              class="rounded-circle me-2"
+            />
+            <div id="loginFullName" name="loginFullName">Name Here</div>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-dark text-small drops shadow d"
+          >
+            <li>
+              <a class="dropdown-item" href="dashboard.html">Dashboard</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="settings_personal.html">Profile</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="../index.html">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-container d-flex">
+      <div class="content">
+        <label for="propertyName">Enter Property Name to Add: </label
+        ><input
+          type="text"
+          name="propertyName"
+          id="propertyName"
+          placeholder="Property Name"
+        /><br />
+        <button id="btnAddProperty" class="btn">
+          Add Property
+          <img
+            src="/images/file-plus.svg"
+            height="18"
+            width="18"
+            alt="Add Property"
+          /></button
+        ><br /><br />
+        <button id="btnViewProperty" class="btn">List Property</button
+        ><br /><br />
+        <div id="propertyList" name="propertyList"></div>
+        <br />
+        <label for="updatePropertyID">Enter Property ID to Update: </label
+        ><input
+          type="text"
+          name="updatePropertyID"
+          id="updatePropertyID"
+          placeholder="Property ID"
+        /><br />
+        <label for="updatePropertyName">Enter New Property Name: </label
+        ><input
+          type="text"
+          name="updatePropertyName"
+          id="updatePropertyName"
+          placeholder="New Property Name"
+        /><br />
+        <button id="btnUpdateProperty" class="btn">Update Property</button
+        ><br /><br />
+        <label for="deletePropertyID">Enter Property ID to Delete: </label
+        ><input
+          type="text"
+          name="deletePropertyID"
+          id="deletePropertyID"
+          placeholder="Property ID"
+        /><br />
+        <button id="btnDeleteProperty" class="btn">
+          Delete Property <img src="/images/trash3.svg" alt="delete" /></button
+        ><br /><br />
+        <label for="sharedPropertyID">Enter Property ID to Share: </label
+        ><input
+          type="text"
+          name="sharedPropertyID"
+          id="sharedPropertyID"
+          placeholder="Property ID"
+        /><br />
+        <label for="sharedPropertyUser"
+          >Enter Username to Share Property With: </label
+        ><input
+          type="text"
+          name="sharedPropertyUser"
+          id="sharedPropertyUser"
+          placeholder="Shared Username"
+        /><br />
+        <button id="btnShareProperty" class="btn">Share Property</button
+        ><br /><br />
+        <button id="btnViewSharedProperty" class="btn">
+          List Shared Property</button
+        ><br />
+        <div id="sharedPropertyList" name="sharedPropertyList"></div>
+        <br />
+        <label for="updateSharedPropertyID"
+          >Enter Shared Property ID to Update: </label
+        ><input
+          type="text"
+          name="updateSharedPropertyID"
+          id="updateSharedPropertyID"
+          placeholder="Shared Property ID"
+        /><br />
+        <label for="updateSharedPropertyName"
+          >Enter New Shared Property Name: </label
+        ><input
+          type="text"
+          name="updateSharedPropertyName"
+          id="updateSharedPropertyName"
+          placeholder="New Shared Property Name"
+        /><br />
+        <button id="btnUpdateSharedProperty" class="btn">Update Property</button
+        ><br /><br />
+        <label for="deleteSharedPropertyID"
+          >Enter Shared Property ID to Delete: </label
+        ><input
+          type="text"
+          name="deleteSharedPropertyID"
+          id="deleteSharedPropertyID"
+          placeholder="Property ID"
+        /><br />
+        <button id="btnDeleteSharedProperty" class="btn">Delete Property</button
+        ><br /><br />
+        <button id="btnViewPropertySharedWith" class="btn">
+          List Property With You</button
+        ><br />
+        <div id="propertySharedWithList" name="propertySharedWithList"></div>
+        <br />
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
